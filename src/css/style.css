@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #282c34;
+  height: 2.5em;
+}
+
+.header {
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.hero {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  padding: 0.5em 0;
+}
+
+.table {
+  width: 50%;
+  height: 100%;
+}
+.table table tbody tr td {
+  border-width: 0.1em;
+  width: 3em;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 1.1em 0;
+  text-align: center;
+}
+.table table tbody tr .table-heading {
+  font-weight: bold;
+  background-color: lightgray;
+}
+.table table tbody tr .table-data:hover {
+  cursor: pointer;
+}
+
+.history {
+  width: 50%;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: grey;
+}/*# sourceMappingURL=style.css.map */
