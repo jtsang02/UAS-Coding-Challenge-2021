@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./css/style.css";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import NavBar from "./components/navbar";
