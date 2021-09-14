@@ -15,7 +15,7 @@ const App = () => {
         <Header />
       </div>
       <div className="hero">
-        <RenderTable onClick ={() => RenderTable()} />
+        <RenderTable />
         <History />
       </div>
     </>

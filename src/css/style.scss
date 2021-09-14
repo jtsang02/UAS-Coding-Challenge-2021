@@ -14,37 +14,35 @@ nav {
 }
 
 .hero {
-  display: inline-flex;
+  display: inline-block;
   width: 100%;
   margin: auto;
-}
 
-h1 {
-  padding: 0.5em 0;
-}
+  h1 {
+    padding: 0.5em 0;
+  }
 
-.table {
-  width: 50%;
-  height: 100%;
+  .table {
 
-  table {    
-    tbody {
-      tr {
-        td {
-          border-width: 0.1em;
-          width: 3em;
-          max-width: fit-content;
-          padding: 1.1em 0;
-          text-align: center;
-        }
+    table {
+      tbody {
+        tr {
+          td {
+            border-width: 0.1em;
+            width: 3em;
+            max-width: fit-content;
+            padding: 1.1em 0;
+            text-align: center;
+          }
 
-        .table-heading {
-          font-weight: bold;
-          background-color: lightgray;
-        }
+          .table-heading {
+            font-weight: bold;
+            background-color: lightgray;
+          }
 
-        .table-data:hover {
+          .table-data:hover {
             cursor: pointer;
+          }
         }
       }
     }
@@ -52,9 +50,30 @@ h1 {
 }
 
 .history {
-  width: 50%;
   text-align: center;
   border-style: solid;
   border-width: 0.1em;
   border-color: grey;
+
+  .history-content {
+    border-top-style: solid;
+    border-width: 0.1em;
+  }
+}
+
+@media only screen and (min-width: 478px) {  // mobile portrait to desktop
+
+  .hero {
+    //overflow: hidden;
+    display: inline-flex;
+    //max-width: 60em;
+    //justify-content: center;
+  }
+  .table {
+    width: 50%;
+  }
+
+  .history {
+    width: 50%;
+  }
 }
