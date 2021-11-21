@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jtsang02.github.io/react-mult-table" ,
+  "homepage": "http://jtsang02.github.io/react-mult-table",
   "name": "mult-table-react",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.0",
     "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.6",
     "react-document-meta": "^3.0.0-beta.2",

@@ -15,7 +15,6 @@ const createArray = (index_y, index_x) => {
   mainArray[0][0] = "X"; // fill (0,0) with char X
 
   for (var i = 1; i < mainArray.length; i++) {    // fill x value headers
-
     mainArray[0][i] = th_x;
     th_x++;
   }

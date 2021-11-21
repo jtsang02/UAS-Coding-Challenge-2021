@@ -1,5 +1,5 @@
 import "./css/style.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/navbar";
 import Header from "./components/Header";
 import RenderTable from "./components/RenderTable";
