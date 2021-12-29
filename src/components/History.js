@@ -1,16 +1,15 @@
-import React from "react";
+import { useState } from "react";
+import updateHistory from "./updateHistory";
 
-const History = (props) => {
-
-    //console.log(props);
-    var x = 3;
-    var y = 2;
+const History = () => {
+    
+    const [history, setHistory] = useState(updateHistory());
 
     return (
         <div className="history" >
             <h2>History</h2>
             <div className="history-content">
-                {x} x {y} = {x * y}
+                {history}
             </div>
         </div>
     );

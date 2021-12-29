@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/navbar";
 import Header from "./components/Header";
 import RenderTable from "./components/RenderTable";
-import History from "./components/History";
 
 const App = () => {
 
@@ -15,7 +14,7 @@ const App = () => {
       </div>
       <div className="hero">
         <RenderTable />
-        <History />
+        
       </div>
     </>
   );
