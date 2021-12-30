@@ -1,6 +1,6 @@
 const createArray = (index_y, index_x) => {
   
-  var n = 12;
+  var n = 15;
   var th_x = 1, th_y = 1;
 
   const mainArray = new Array(n + 1); // create 1d array
@@ -20,7 +20,6 @@ const createArray = (index_y, index_x) => {
   }
 
   for (var j = 1; j < mainArray.length; j++) {    // fill y value headers
-
     mainArray[j][0] = th_y;
     th_y++;
   }

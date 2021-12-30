@@ -23,7 +23,6 @@ nav {
   }
 
   .table {
-
     table {
       tbody {
         tr {
@@ -61,7 +60,8 @@ nav {
   }
 }
 
-@media only screen and (min-width: 478px) {  // mobile portrait to desktop
+@media only screen and (min-width: 478px) {
+  // mobile portrait to desktop
 
   .hero {
     //overflow: hidden;

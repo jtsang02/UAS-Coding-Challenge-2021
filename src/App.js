@@ -14,7 +14,6 @@ const App = () => {
       </div>
       <div className="hero">
         <RenderTable />
-        
       </div>
     </>
   );
