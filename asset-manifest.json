@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-mult-table/static/css/main.7f92f7ac.chunk.css",
-    "main.js": "/react-mult-table/static/js/main.beac93dd.chunk.js",
-    "main.js.map": "/react-mult-table/static/js/main.beac93dd.chunk.js.map",
+    "main.css": "/react-mult-table/static/css/main.2c32e151.chunk.css",
+    "main.js": "/react-mult-table/static/js/main.51ab5b0b.chunk.js",
+    "main.js.map": "/react-mult-table/static/js/main.51ab5b0b.chunk.js.map",
     "runtime-main.js": "/react-mult-table/static/js/runtime-main.8d8d5bca.js",
     "runtime-main.js.map": "/react-mult-table/static/js/runtime-main.8d8d5bca.js.map",
     "static/css/2.818011ed.chunk.css": "/react-mult-table/static/css/2.818011ed.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.678411e1.chunk.js.map": "/react-mult-table/static/js/2.678411e1.chunk.js.map",
     "index.html": "/react-mult-table/index.html",
     "static/css/2.818011ed.chunk.css.map": "/react-mult-table/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.7f92f7ac.chunk.css.map": "/react-mult-table/static/css/main.7f92f7ac.chunk.css.map",
+    "static/css/main.2c32e151.chunk.css.map": "/react-mult-table/static/css/main.2c32e151.chunk.css.map",
     "static/js/2.678411e1.chunk.js.LICENSE.txt": "/react-mult-table/static/js/2.678411e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8d8d5bca.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.678411e1.chunk.js",
-    "static/css/main.7f92f7ac.chunk.css",
-    "static/js/main.beac93dd.chunk.js"
+    "static/css/main.2c32e151.chunk.css",
+    "static/js/main.51ab5b0b.chunk.js"
   ]
 }
