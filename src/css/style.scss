@@ -11,16 +11,16 @@ nav {
   display: block;
   text-align: left;
   margin-bottom: 0;
+
+  h1 {
+    padding: 0.5em 0;
+  }
 }
 
 .hero {
   display: inline-block;
   width: 100%;
   margin: auto;
-
-  h1 {
-    padding: 0.5em 0;
-  }
 
   .table {
     table {
@@ -46,17 +46,17 @@ nav {
       }
     }
   }
-}
 
-.history {
-  text-align: center;
-  border-style: solid;
-  border-width: 0.1em;
-  border-color: grey;
-
-  .history-content {
-    border-top-style: solid;
+  .history {
+    text-align: center;
+    border-style: solid;
     border-width: 0.1em;
+    border-color: grey;
+
+    .history-content {
+      border-top-style: solid;
+      border-width: 0.1em;
+    }
   }
 }
 

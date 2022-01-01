@@ -1,6 +1,5 @@
-const createArray = (index_y, index_x) => {
+const createArray = (index_y, index_x, n) => {
   
-  var n = 15;
   var th_x = 1, th_y = 1;
 
   const mainArray = new Array(n + 1); // create 1d array

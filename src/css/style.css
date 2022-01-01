@@ -12,14 +12,14 @@ nav {
   text-align: left;
   margin-bottom: 0;
 }
+.header h1 {
+  padding: 0.5em 0;
+}
 
 .hero {
   display: inline-block;
   width: 100%;
   margin: auto;
-}
-.hero h1 {
-  padding: 0.5em 0;
 }
 .hero .table table tbody tr td {
   border-width: 0.1em;
@@ -37,14 +37,13 @@ nav {
 .hero .table table tbody tr .table-data:hover {
   cursor: pointer;
 }
-
-.history {
+.hero .history {
   text-align: center;
   border-style: solid;
   border-width: 0.1em;
   border-color: grey;
 }
-.history .history-content {
+.hero .history .history-content {
   border-top-style: solid;
   border-width: 0.1em;
 }
