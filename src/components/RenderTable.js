@@ -3,32 +3,31 @@ import createArray from "./createArray";
 import updateHistory from "./updateHistory";
 
 const RenderTable = () => {
-
   const [tableSize, setTableSize] = useState(13);
   const [table, setTable] = useState(createArray(undefined, undefined, tableSize));
   const [historyList, setHistory] = useState(updateHistory());
 
   const handleIncrement = () => {
-    setTableSize(prevInput => prevInput + 1);
-    setTable(createArray(undefined, undefined, tableSize));
-  }
+    setTableSize(tableSize + 1);
+    setTable(createArray(0, 0, tableSize + 1));
+  };
 
   const handleDecrement = () => {
-    setTableSize(prevInput => prevInput - 1);
-    setTable(createArray(undefined, undefined, tableSize));
-  }
+    setTableSize(tableSize - 1);
+    setTable(createArray(undefined, undefined, tableSize - 1));
+  };
 
   const handleClick = (x, y) => {
     setTable(createArray(x, y, tableSize)); // temp use setTable to see increment in tableSize
     setHistory(updateHistory(x, y));
-  }
+  };
 
   return (
     <>
       <div>
         <div className="btn">
-          <button onClick={handleIncrement}>+</button>
-          <button onClick={handleDecrement}>-</button>
+          <button onClick={() => handleIncrement()}>+</button>
+          <button onClick={() => handleDecrement()}>-</button>
         </div>
 
         <div className="hero">
@@ -40,8 +39,9 @@ const RenderTable = () => {
                     {arrayRow.map((arrayItem, index_x) => (
                       <td
                         className={`${index_x === 0 || index_y === 0
-                          ? "table-heading"
-                          : "table-data"}`}
+                            ? "table-heading"
+                            : "table-data"
+                          }`}
                         onClick={() => handleClick(index_x, index_y)}
                         key={index_x}
                       >
