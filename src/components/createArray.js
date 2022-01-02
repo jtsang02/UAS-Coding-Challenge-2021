@@ -1,5 +1,5 @@
 const createArray = (index_y, index_x, n) => {
-  
+
   var th_x = 1, th_y = 1;
 
   const mainArray = new Array(n + 1); // create 1d array
@@ -27,4 +27,4 @@ return mainArray;
 
 };
 
-export default createArray;
+export default createArray; 

@@ -13,8 +13,10 @@ const RenderTable = () => {
   };
 
   const handleDecrement = () => {
-    setTableSize(tableSize - 1);
-    setTable(createArray(undefined, undefined, tableSize - 1));
+    if (tableSize > 1) {
+      setTableSize(tableSize - 1);
+      setTable(createArray(undefined, undefined, tableSize - 1));
+    }
   };
 
   const handleClick = (x, y) => {
