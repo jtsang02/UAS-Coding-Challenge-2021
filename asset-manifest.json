@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-mult-table/static/css/main.dd0d0657.chunk.css",
-    "main.js": "/react-mult-table/static/js/main.1d30ddf2.chunk.js",
-    "main.js.map": "/react-mult-table/static/js/main.1d30ddf2.chunk.js.map",
+    "main.js": "/react-mult-table/static/js/main.11d1aa6b.chunk.js",
+    "main.js.map": "/react-mult-table/static/js/main.11d1aa6b.chunk.js.map",
     "runtime-main.js": "/react-mult-table/static/js/runtime-main.8d8d5bca.js",
     "runtime-main.js.map": "/react-mult-table/static/js/runtime-main.8d8d5bca.js.map",
     "static/css/2.818011ed.chunk.css": "/react-mult-table/static/css/2.818011ed.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.aa9e2f04.chunk.js",
     "static/css/main.dd0d0657.chunk.css",
-    "static/js/main.1d30ddf2.chunk.js"
+    "static/js/main.11d1aa6b.chunk.js"
   ]
 }
