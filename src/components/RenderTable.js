@@ -4,7 +4,9 @@ import updateHistory from "./updateHistory";
 
 const RenderTable = () => {
   const [tableSize, setTableSize] = useState(13);
-  const [table, setTable] = useState(createArray(undefined, undefined, tableSize));
+  const [table, setTable] = useState(
+    createArray(undefined, undefined, tableSize)
+  );
   const [historyList, setHistory] = useState(updateHistory());
 
   const handleIncrement = () => {
@@ -24,12 +26,25 @@ const RenderTable = () => {
     setHistory(updateHistory(x, y));
   };
 
+  const handleReset = () => {
+    setTableSize(13);
+    setTable(createArray(undefined, undefined, 13));
+  };
+
   return (
     <>
       <div>
         <div className="btn">
           <button onClick={() => handleIncrement()}>+</button>
           <button onClick={() => handleDecrement()}>-</button>
+          <button onClick={() => handleReset()}>Reset</button>
+          <button
+            onClick={() =>
+              setHistory(updateHistory(undefined, undefined, true))
+            }
+          >
+            Clear History
+          </button>
         </div>
 
         <div className="hero">
@@ -40,10 +55,11 @@ const RenderTable = () => {
                   <tr>
                     {arrayRow.map((arrayItem, index_x) => (
                       <td
-                        className={`${index_x === 0 || index_y === 0
+                        className={`${
+                          index_x === 0 || index_y === 0
                             ? "table-heading"
                             : "table-data"
-                          }`}
+                        }`}
                         onClick={() => handleClick(index_x, index_y)}
                         key={index_x}
                       >

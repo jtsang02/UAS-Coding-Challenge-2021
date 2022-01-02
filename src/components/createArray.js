@@ -23,7 +23,7 @@ const createArray = (index_y, index_x, n) => {
     th_y++;
   }
 
-return mainArray;
+  return mainArray;
 
 };
 
